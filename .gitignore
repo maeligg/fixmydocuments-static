@@ -1,0 +1,5 @@
+.sass-cache/
+node_modules/
+img/unoptimised/
+Grunfile.js
+package.json
