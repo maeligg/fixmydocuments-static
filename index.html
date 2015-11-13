@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.min.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -17,26 +17,59 @@
             <img src="img/logo.png" alt="logo" class="logo">
         </header>
 
-        <div class="wrapper">
-
             <h1>FixMyDocuments</h1>
 
-            <h2>About the FixMyDocuments campaign</h2>
-            <p>FixMyDocuments was a campaign organised by <a href="http://www.openforumeurope.org/" target="_blank">OpenForum Europe</a> that ran from September 2014 to September 2015. Inspired by <a href="https://www.fixmystreet.com/" target="_blank">FixMyStreet</a>, FixMyDocuments.eu aimed to help European public administrations to implement their decision to support open document formats by documenting, tracking and reporting their compliance online. This was done mainly through an online platform that allowed anyone to report URLs of web pages from public administrations on which editable documents used for sharing and collaborating were available for download or through which they could be submitted and which did not include one of the ODF family standard as an option.</p>
+        <div class="wrapper">
 
-            <h2>What was the outcome of the campaign?</h2>
-            <p>Over 600 organisations and individuals left a statement of support and expressed their concerns about their public administrations’ failure to use open document formats. The online platform collected over 100 reports of pages containing documents exclusively in closed/proprietary formats, and the responsible services were notified. After a year, only around 10% of the pages had been "fixed". A bulk analysis of all documents published by the EU institutions in 2014, by file formats was also conducted :
-            </p>
-            <iframe src="http://e.infogr.am/documents-published-by-the-eu-institutions-in-2014-by-file-formats?src=embed" width="550" height="662" scrolling="no" frameborder="0" style="border:none;"></iframe><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"></div>
 
-            <h2>What’s this Open Document / ODF thing anyway?</h2>
-            <p>Open Document (notice the capitalisation) is an open international standard for XML-based  spreadsheets, charts, presentations and word processing documents. It is actively supported by multiple applications and it can be safely implemented in any type of software, including Free / Open Source software. This means that anyone, anywhere can open and edit ODF documents, without being required to use a piece of software from any single vendor. For more information on ODF please visit <a href="http://www.opendocumentformat.org/" target="_blank">this page</a>.</p>
+
+            <div class="card">
+                <div class="front">
+                    <h2>About the FixMyDocuments campaign</h2>
+                </div>
+                <div class="back">
+                    <p>FixMyDocuments was a campaign organised by <a href="http://www.openforumeurope.org/" target="_blank">OpenForum Europe</a> that ran from September 2014 to September 2015. Inspired by <a href="https://www.fixmystreet.com/" target="_blank">FixMyStreet</a>, FixMyDocuments.eu aimed to help European public administrations to implement their decision to support open document formats by documenting, tracking and reporting their compliance online. This was done mainly through an online platform that allowed anyone to report URLs of web pages from public administrations on which editable documents used for sharing and collaborating were available for download or through which they could be submitted and which did not include one of the ODF family standard as an option.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <h2>What was the outcome of the campaign?</h2>
+                </div>
+                <div class="back">
+                    <p>Over 600 organisations and individuals left a statement of support and expressed their concerns about their public administrations’ failure to use open document formats. The online platform collected over 100 reports of pages containing documents exclusively in closed/proprietary formats, and the responsible services were notified. After a year, only around 10% of the pages had been "fixed". We also conducted a bulk analysis of all documents published by the EU institutions in 2014, by file formats (see next panel for more details).
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <h2>Figures</h2>
+                </div>
+                <div class="back">
+                    <iframe src="http://e.infogr.am/documents-published-by-the-eu-institutions-in-2014-by-file-formats?src=embed" width="450px" height="400px" scrolling="no" frameborder="0" style="border:none;"></iframe>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="front">
+                    <h2>What’s Open Document / ODF anyway?</h2>
+                </div>
+                <div class="back">
+                    <p>Open Document (notice the capitalisation) is an open international standard for XML-based  spreadsheets, charts, presentations and word processing documents. It is actively supported by multiple applications and it can be safely implemented in any type of software, including Free / Open Source software. This means that anyone, anywhere can open and edit ODF documents, without being required to use a piece of software from any single vendor. For more information on ODF please visit <a href="http://www.opendocumentformat.org/" target="_blank">this page</a>.</p>
+                </div>
+            </div>
 
         </div>
 
         <footer>
             <a href="mailto:info@openforumeurope.org" target="_blank">Contact</a>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.16/dist/jquery.flip.min.js"></script>
+        <script src="js/main.js"></script>
+
 
     </body>
 </html>

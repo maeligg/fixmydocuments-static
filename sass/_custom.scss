@@ -1,7 +1,6 @@
 body {
   position: relative;
   text-align: center;
-  background-color: #000099;
 }
 
 .logo {
@@ -10,27 +9,54 @@ body {
   margin: 0 auto;
 }
 
-.wrapper {
-  background-color: #fff;
-  margin: 0 auto;
-  width: 60%;
-  padding: 5%;
+header {
+  background-color: #000099;
+}
+
+.card {
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+}
+
+.front {
+  background-color: #000099;
+  border-radius: 10px;
+}
+
+.back {
+  background-color: #d3d3d3;
+  border-radius: 10px;
 }
 
 h1 {
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+h2 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 2em;
 }
 
 p {
   text-align: justify;
-  margin-bottom: 50px;
+  padding: 50px;
+}
+
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  height: 50px;
+  margin-top: 50px;
 }
