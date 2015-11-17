@@ -1,0 +1,76 @@
+//.card--small {
+
+}
+
+//.card--big {
+  width: 500px;
+  height: 500px;
+}
+
+//.front {
+  background-color: #000099;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 5px 5px;
+}
+
+//.back {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 5px 5px;
+}
+
+//.front-wrapper {
+  height: 460px;
+  width: 460px;
+  border: 5px solid #FFCC00;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//.back-wrapper {
+  height: 460px;
+  width: 460px;
+  border: 5px solid #000099;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.card-wrapper {
+  height: 80px;
+  width: 280px;
+  border: 5px solid #FFCC00;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70px; 
+  height: 20px;
+  padding: 8px 16px;
+  font-size: 1.2em;
+  background-color: #000099;
+  border-right: 5px solid #FFCC00;
+  border-left: 5px solid #FFCC00;
+  border-top: 5px solid #FFCC00;
+  color: #fff;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+}

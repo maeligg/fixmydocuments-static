@@ -1,0 +1,43 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  background: #fff url(../img/stripe_bg.png) repeat scroll 0 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000099;
+  box-shadow: rgba(0,0,0,0.8) 0 5px 5px;
+  min-width: 360px;
+  border-bottom: 5px solid #FFCC00;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: -5px;
+  padding: 20px 40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 5px 5px;
+  color: #fff;
+  background-color: #000099;
+  border-bottom: 5px solid #FFCC00;
+  border-left: 5px solid #FFCC00;
+  border-right: 5px solid #FFCC00;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+  .featherlight:last-of-type {
+  background: rgba(0,0,0,0.6) !important;
+}

@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+  height: 105px;
+  width: 324px;
+  background-color: #000099;
+  border: 5px solid #FFCC00;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 5px 5px;
+  margin: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card__title {
+  color: #fff;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  width: 95%;
+}
+

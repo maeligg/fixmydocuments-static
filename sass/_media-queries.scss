@@ -1,51 +1,6 @@
 @media screen  and (max-width: 540px) {
 
-  h1 {
-    font-size: 2em;
-  }
 
-  .card {
-    width: 320px;
-    height: 320px;
-  }
 
-  .front-wrapper {
-    height: 280px;
-    width: 280px;
-  }
-
-  .back-wrapper {
-    height: 280px;
-    width: 280px
-  }
-
-  p {
-    padding: 10px;
-    font-size: 0.7em;
-  }
-
-  iframe {
-  display: none;
-  }
-
-  .contact {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -50px;
-    bottom: 0;
-    transform: rotate(0deg);
-  }
-
-  .contact a {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -50px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
 
 }
